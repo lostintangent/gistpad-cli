@@ -1,0 +1,21 @@
+{
+  "name": "gistpad-cli",
+  "version": "0.0.1",
+  "description": "A companion CLI for GistPad, that makes it easy to open gists and repos in VS Code, directly from your terminal",
+  "bin": {
+    "gistpad": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lostintangent/gistpad-cli.git"
+  },
+  "author": "Jonathan Carter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lostintangent/gistpad-cli/issues"
+  },
+  "homepage": "https://github.com/lostintangent/gistpad-cli#readme",
+  "dependencies": {
+    "open": "^8.0.5"
+  }
+}
