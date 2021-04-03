@@ -1,6 +1,8 @@
 # GistPad CLI 📘
 
-GistPad CLI is a companion CLI for the [GistPad extension](https://aka.ms/gistpad), that makes it easy to open gists and repos in VS Code, directly from your terminal.
+GistPad CLI is a companion CLI for the [GistPad extension](https://aka.ms/gistpad), that makes it easy to open gists and repos in VS Code, directly from your terminal. Since GistPad allows you to browse and edit files, without cloning or commiting anything, this provides a simple workflow for exploring and working on code, without needing to clutter your local machine with anything 🔥
+
+<img src="https://user-images.githubusercontent.com/116461/113492550-edbf4680-948c-11eb-8a16-a36dcfcae39f.gif" />
 
 ## Getting Started
 
