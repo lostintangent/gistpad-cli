@@ -2,6 +2,7 @@
 
 const insidersFlag = ["--insiders", "-i"];
 const usageInfo = `gistpad [${insidersFlag.join("|")}] <gistOrRepo>.`;
+const commands = ["today", "scratch"];
 
 function printHelp() {
     console.log(
@@ -41,5 +42,8 @@ if (!gistOrRepo) {
 const quality = insidersFlag.includes(flag) ? "vscode-insiders" : "vscode";
 const param = gistOrRepo.includes("/") ? "repo" : "gist"
 
-const url = `${quality}://vsls-contrib.gistfs/open?${param}=${gistOrRepo}`;
+const urlRoot = `${quality}://vsls-contrib.gistfs`;
+const path = commands.includes(gistOrRepo) ? gistOrRepo : `open?${param}=${gistOrRepo}`;
+
+const url = `${urlRoot}/${path}`;
 require("open")(url);

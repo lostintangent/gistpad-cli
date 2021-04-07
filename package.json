@@ -1,7 +1,7 @@
 {
   "name": "gistpad-cli",
-  "version": "0.1.0",
-  "description": "A companion CLI for GistPad, that makes it easy to open gists and repos in VS Code, directly from your terminal",
+  "version": "0.1.1",
+  "description": "A companion CLI for GistPad, that makes it easy to manage gists and repos in VS Code, directly from your terminal",
   "bin": {
     "gistpad": "index.js"
   },
